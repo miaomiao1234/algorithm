@@ -1,9 +1,8 @@
-package com.ml.algorithm.huawei.simple;
+package com.ml.algorithm.companyh.simple;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.LinkedList;
 
 /**
  * @author miaoliang

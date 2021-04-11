@@ -1,4 +1,4 @@
-package com.ml.algorithm.huawei.simple;
+package com.ml.algorithm.companyh.simple;
 
 import java.io.InputStream;
 import java.io.IOException;

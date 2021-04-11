@@ -1,4 +1,4 @@
-package com.ml.algorithm.huawei.getStarted;
+package com.ml.algorithm.companyh.getStarted;
 
 import java.util.Scanner;
 
