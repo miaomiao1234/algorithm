@@ -2,7 +2,6 @@ package com.ml.algorithm.niuke.simple;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author miaoliang
@@ -21,10 +20,10 @@ public class LevelOrder {
         // 如果 根节点为空，直接返回值
         if (root == null) return list;
         // 创建队列 存储 节点信息
-        ArrayDeque<TreeNode> nodeList = new ArrayDeque<TreeNode>();
+        ArrayDeque<TreeNode> nodeList = new ArrayDeque<>();
         nodeList.add(root);
         while(nodeList.size() > 0) {
-            ArrayList<Integer> row = new ArrayList();
+            ArrayList<Integer> row = new ArrayList<>();
             int n = nodeList.size();
             for (int i = 0; i < n; i++) {
                 TreeNode node = nodeList.pop();
