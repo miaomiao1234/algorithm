@@ -42,7 +42,9 @@ public class QuickSort extends Sort {
         // 选取切割数组的元素
 //        int x = array[end];
         // 采用随机算法，避免出现最糟糕情况
-        int x = array[start + random.nextInt(end-start)];
+        int index = start + random.nextInt(end-start);
+        int x = array[index];
+        swapElement(array, index, end);
         // 定义 切割元素右侧子数组开始位置
         int rightStart = start - 1;
         for (int i = start; i <= end; i++) {

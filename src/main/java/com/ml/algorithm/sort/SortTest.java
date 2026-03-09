@@ -2,6 +2,7 @@ package com.ml.algorithm.sort;
 
 import com.ml.algorithm.sort.insertionsort.InsertionSort;
 import com.ml.algorithm.sort.quicksort.QuickSort;
+import com.ml.algorithm.sort.quicksort.QuickSort2;
 
 import java.util.Random;
 
@@ -14,6 +15,7 @@ public class SortTest {
     public static void main(String[] args) {
         Sort insertionSort = new InsertionSort();
         Sort quickSort = new QuickSort();
+        Sort quickSort2 = new QuickSort2();
         //初始化数组
         Random random = new Random();
         int a = 10000;
@@ -22,9 +24,12 @@ public class SortTest {
             array[i] = random.nextInt(a);
         }
 //        insertionSort.sort(array);
-        quickSort.sort(array);
 //        System.out.println();
+        quickSort.sort(array);
         quickSort.print(array);
+        System.out.println();
+//        quickSort2.sort(array);
+//        quickSort2.print(array);
 
 
     }
