@@ -1,11 +1,7 @@
 package com.ml.algorithm.reversechain;
 
-import ch.qos.logback.core.status.Status;
 import lombok.Data;
 
-import java.util.List;
-
-import static ch.qos.logback.core.util.StatusPrinter.print;
 
 /**
  * @author miaoliang
@@ -22,14 +18,6 @@ public class ReverseChain {
 
         public ListNode(int val) {
             this.val = val;
-        }
-
-        public int getVal() {
-            return val;
-        }
-
-        public ListNode next() {
-            return next;
         }
     }
 
